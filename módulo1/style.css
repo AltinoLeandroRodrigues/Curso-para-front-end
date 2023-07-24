@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(./assents/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover; */
+
+    /* short-end  */
+    background: url(./assents/bg-mobile.jpg) no-repeat top center/cover;
+    background-attachment: fixed;
+}
+body *{
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+}
+
+/* div e um elemento inline */
+#container{
+    width: 360px; 
+    margin: 56px auto auto auto; 
+    padding: 0 24px;
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img{
+    width: 112px;
+}
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+ 
+/* links */
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+ul li a{
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px 20px;
+
+    background: rgba(255, 255, 255,0.1);
+    border: 1px solid rgba(255, 255, 255,0.5);
+    border-radius: 8px;
+
+    backdrop-filter: blur(40px);
+    font-weight: bold;
+    transition: background 0.5s;
+}
+/* pseudo selector */
+
+ul li a:hover{
+    background: rgba(255, 255, 255,0.5);
+    border: 1px solid white;
+}
+
+ 

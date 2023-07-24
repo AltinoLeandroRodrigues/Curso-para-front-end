@@ -1,0 +1,20 @@
+front-frent-cliente
+brawser-navegador
+back-fundo-servidor
+
+front-end tecnology:
+Html-conteúdo
+css-estilos
+javascript-interação
+
+back-end tecnology:
+Node-js- utilizado para  Rodar o javascript no computador.
+SQL-Banco de dados 
+
+
+ferramentas:
+Google-Navegador(Browser)
+visual studio code ( editor de códigos)
+figma(Plataforma online e profissional para Design de projectos)
+GIT-Mudança de Históricos
+Frontedit.dev-editor online
